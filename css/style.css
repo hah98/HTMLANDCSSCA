@@ -1,0 +1,311 @@
+/* Index page*/
+body {
+    font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: #0A3641;
+    color: #fff;
+
+}
+
+.footerinfo {
+    font-size: 0,5em;
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    height: 150px;
+    width: 250px;
+    
+}
+
+nav li {
+    display: inline-block;
+    
+}
+
+.photo-wall {
+    height: 150px;
+    width: 200px;
+    padding-left: 30px;
+    padding:5px 5px 5px;
+}
+
+.shop-button {
+    background-color: #0A3641;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* lIST OF JACKETS PAGE */
+
+.rd-jackets {
+    height: 200px;
+    width: 200px;
+    padding-left: 30px;
+    padding:5px 5px 5px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.rd-jackets-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-gap: 20px;
+
+}
+  
+/* Jacket info page*/
+
+.rock-orange {
+    background-color: #0A3641; 
+    color:  #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    width: 180px;
+    height: 160px;
+    border-radius: 3px;
+}
+
+.sizes {
+    background-color: #0A3641; 
+    color:  #fff;
+    text-transform: uppercase;
+    font-size: 0,5em;
+    width: 50px;
+    height: 45px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+ .link-together {
+    display: flex;
+    grid-gap: 50px;
+    margin:30px;
+}
+
+.jacket-info {
+    background-color: #0A3641; 
+    opacity: 41%;
+    color:  #fff;
+    font-size: 20px;
+    width: 600px;
+    height: 150px;
+    border-radius: 3px;
+}
+
+.addtobag {
+    background-color: #fff;
+    color: #0A3641;
+    border:solid;
+    color: #000;
+    font-size: 0,5em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.sizeguide {
+    text-decoration: underline;
+    font-size: 0,2em;
+    font: #000;
+}
+
+/* Checkout page */
+
+.shopping-info {
+    background-color: #D9D9D9;
+    color:  #000;
+    font-size: 20px;
+    width: 350px;
+    height: 290px;
+    border-radius: 3px;
+    text-align: center;
+    
+    
+}
+
+.shopping-info-image {
+    background-color: #D9D9D9;
+    width: 350px;
+    height: 290px;
+    border-radius: 5px;
+    text-align: center;
+   
+}
+
+.jacket-checkout-info, 
+.shopping-info-grid {
+   display: flex;
+   margin: 50px;
+   grid-gap: 130px;
+
+}
+
+
+.jacket-checkout-info {
+    display: list-item;
+    list-style: none;
+}
+
+.head-symbol{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 100px;
+}
+
+.buy-item{
+    background-color: #0A3641;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* checkut success page*/
+
+.rd-placement{
+    background-color: #D9D9D9;
+    width: 350px;
+    height: 290px;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 950px;
+}
+
+.shopmore {
+
+    background-color: #0A3641;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.jacket-success-info {
+    display: list-item;
+    list-style: none;
+    margin-left: 200px;
+}
+
+.checkoutgrid, 
+.jacket-success-info {
+    display: flex;
+    margin: 10px;
+    max-width: 30px;
+   
+}
+
+
+/* Contact page*/
+
+.contact-symbols {
+    display: flex;
+    margin-left: 650px;
+    grid-gap: 30px;
+}
+
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.form-design {
+    width: 20%;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    background-color: #0A3641;
+    opacity: 41%;
+    color: #fff;
+    border-radius: 10px;
+    margin-left: 30px;
+    text-align: center;
+    
+
+}
+
+.sendinbutton{
+    background-color: #0A3641;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    padding: 10px 80px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.raindrop {
+    height: 300px;
+    width: 500px;
+    padding-left: 10px;
+    padding: 30px;
+}
+
+.form-design , 
+.raindrop {
+    display: flex;
+    grid-gap: 100px;
+}
+
+/* About Rainydays*/
+
+.logo-aboutRD{
+    text-align: left;
+    height: 100px;
+    width: 200px;
+}
+.comfort {
+font-size: 1.5em;
+text-align: center;
+color: #0A3641;
+
+}
+.paragraph-info-1 {
+    color: #0A3641;
+    font-size: medium;
+    
+}
+
+.logo-image-about {
+    height: 200px;
+    width: 400px;
+    margin-left: 900px;
+}
+
+.paragraph-info-2 {
+    color: #0A3641;
+    font-size: medium;
+}
+
+.photo-reel {
+    max-height: 150px;
+    max-width: 250px;
+    padding: 10px 10px 10px 10px;
+    
+   
+    
+}
