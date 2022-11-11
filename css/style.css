@@ -1,11 +1,19 @@
 /* Index page*/
 body {
     font-family: "poppins", Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
 }
 
 footer {
     background-color: #0A3641;
     color: #fff;
+    height: 50px;
 
 }
 
@@ -18,11 +26,18 @@ footer {
 .logo {
     height: 150px;
     width: 250px;
+    margin-bottom: 20px;
     
+}
+
+.logo-index{
+    margin-bottom: 20px;
+
 }
 
 nav li {
     display: inline-block;
+    text-decoration: none;
     
 }
 
@@ -31,6 +46,7 @@ nav li {
     width: 200px;
     padding-left: 30px;
     padding:5px 5px 5px;
+    margin-bottom: 20px;
 }
 
 .shop-button {
@@ -41,6 +57,7 @@ nav li {
     padding: 10px 80px;
     border-radius: 5px;
     text-decoration: none;
+    margin-top: 10px;
 }
 
 /* lIST OF JACKETS PAGE */
@@ -68,9 +85,24 @@ nav li {
     color:  #fff;
     text-transform: uppercase;
     font-size: 0.9em;
-    width: 180px;
-    height: 160px;
-    border-radius: 3px;
+    width: 300px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 350px;
+}
+
+.rd-jackets-info{
+    width: 350px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.detailsanddelivery {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 100px));
+    grid-gap: 20px;
+    margin-left: 150px;
+    font-size: 12px;
 }
 
 .sizes {
@@ -82,7 +114,20 @@ nav li {
     height: 45px;
     border-radius: 3px;
     text-align: center;
+    
+       
 }
+
+.sizes-placement{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 100px));
+    grid-gap: 20px;
+    margin-left: 700px;
+    margin-top: -90px;
+    min-height: 40px;
+    
+}
+
 
  .link-together {
     display: flex;
@@ -95,9 +140,10 @@ nav li {
     opacity: 41%;
     color:  #fff;
     font-size: 20px;
-    width: 600px;
-    height: 150px;
+    width: 550px;
+    height: 180px;
     border-radius: 3px;
+    text-align: center;
 }
 
 .addtobag {
@@ -110,6 +156,8 @@ nav li {
     padding: 10px 80px;
     border-radius: 5px;
     text-decoration: none;
+    margin-left: 600px;
+    
 }
 
 .sizeguide {
@@ -159,6 +207,7 @@ nav li {
     display: grid;
     grid-auto-flow: column;
     grid-column-gap: 100px;
+    text-decoration: none;
 }
 
 .buy-item{
