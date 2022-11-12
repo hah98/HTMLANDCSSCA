@@ -6,19 +6,40 @@ body {
     min-height: 100vh;
 }
 
-main {
-    flex-grow: 1;
+
+
+a {
+    text-decoration: none;
+    color: #000;
 }
 
 footer {
     background-color: #0A3641;
     color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
     height: 50px;
+    margin-top: 20px;
 
 }
 
+footer a {
+    color: #fff;
+    margin-left: 10px;
+}
+
+footer i {
+    margin-left: 40px;
+    
+}
+
+main {
+    flex-grow: 1;
+}
+
+
 .footerinfo {
-    font-size: 0,5em;
+    font-size: 1em;
     color: #fff;
     text-decoration: none;
 }
@@ -122,7 +143,7 @@ nav li {
 .sizes-placement{
     display: grid;
     grid-template-columns: repeat(5, minmax(0, 100px));
-    grid-gap: 20px;
+    grid-gap: 30px;
     margin-left: 700px;
     margin-top: -90px;
     min-height: 40px;
@@ -144,6 +165,9 @@ nav li {
     height: 180px;
     border-radius: 3px;
     text-align: center;
+    margin-left: 700px;
+    position: relative;
+    top: -300px;
     
     
 }
@@ -158,9 +182,11 @@ nav li {
     padding: 10px 80px;
     border-radius: 5px;
     text-decoration: none;
-    margin-left: 900px;
-    margin-top: -50px;
+    margin-left: 550px;
     min-height: 40px;
+    position: relative;
+    top: 60px;
+    
     
 }
 
@@ -207,13 +233,21 @@ nav li {
     list-style: none;
 }
 
-.head-symbol{
+.head-symbols  {
     display: grid;
-    grid-template-columns: repeat(8, minmax(0, 50px));
-    grid-gap: 30px;
-    text-decoration: none;
+    grid-template-rows: repeat(8, minmax 0,30px); 
+    margin-left: 30px;
+
+} 
+
+.head-symbols i {
+    display: grid;
+    grid-template-rows: repeat(8, minmax 0,30px); 
+    margin-left: 30px;
+    
 }
 
+    
 .buy-item{
     background-color: #0A3641;
     color: #fff;
@@ -232,7 +266,9 @@ nav li {
     height: 290px;
     border-radius: 5px;
     text-align: center;
-    margin-left: 950px;
+    margin-left: 1000px;
+    position: relative;
+    top: -250px;
 }
 
 .shopmore {
@@ -244,20 +280,18 @@ nav li {
     padding: 10px 80px;
     border-radius: 5px;
     text-decoration: none;
+    position: relative;
+    top: -200px;
+    
 }
 
-.jacket-success-info {
+.jacket-checkout-info{
     display: list-item;
     list-style: none;
-    margin-left: 200px;
-}
-
-.checkoutgrid, 
-.jacket-success-info {
-    display: flex;
-    margin: 10px;
-    max-width: 30px;
-   
+    color: #000;
+    margin-left: 50px;
+    position: relative;
+    left: 90px;
 }
 
 
@@ -289,26 +323,31 @@ label {
 
 .form-design {
     width: 20%;
-    padding: 20px 40px;
+    padding: 60px 40px;
     box-sizing: border-box;
     background-color: #0A3641;
-    opacity: 41%;
     color: #fff;
     border-radius: 10px;
     margin-left: 30px;
     text-align: center;
-    
-
+    margin-left: 900px;
+    position: relative;
+    top: -350px;
 }
 
-.sendinbutton{
+#sendinbutton{
     background-color: #0A3641;
+    opacity: 90%;
     color: #fff;
     font-size: 1em;
     text-transform: uppercase;
-    padding: 10px 80px;
-    border-radius: 5px;
-    text-decoration: none;
+    padding: 10px 70px;
+    border-radius: 10px;
+    position: relative;
+    top: 30px;
+
+    
+    
 }
 
 .raindrop {
@@ -318,6 +357,13 @@ label {
     padding: 30px;
 }
 
+.logo-contact{
+    height: 150px;
+    width: 250px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+
+}
 .form-design , 
 .raindrop {
     display: flex;
@@ -341,24 +387,39 @@ color: #0A3641;
     color: #0A3641;
     font-size: medium;
     
-}
-
-.logo-image-about {
-    height: 200px;
-    width: 400px;
-    margin-left: 900px;
+    
 }
 
 .paragraph-info-2 {
     color: #0A3641;
     font-size: medium;
+    
+}
+
+
+.logo-image-about {
+    height: 250px;
+    width: 450px;
+    margin-left: 900px;
+    
+}
+
+#img {
+    position: relative;
+    top: -400px;
 }
 
 .photo-reel {
-    max-height: 150px;
-    max-width: 250px;
+    max-height: 300px;
+    max-width: 300px;
     padding: 10px 10px 10px 10px;
-    
-   
+    position: relative;
+    top: -200px;
     
 }
+
+#imgsize{
+    max-width: 300px;
+    min-height: 200px;
+}
+
