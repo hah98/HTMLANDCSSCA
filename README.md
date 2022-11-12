@@ -48,7 +48,7 @@ Github using the Netflify link: ………………………
 
 - Link for the Rainy Days website: ………………
 
-##sources used
+## sources used
 
 I followed noroff course modules for HTML AND CSS. 
 And also used MDN website for forexample flexbox: 
