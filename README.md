@@ -48,6 +48,11 @@ Github using the Netflify link: ………………………
 
 - Link for the Rainy Days website: ………………
 
+##sources used
+
+I followed noroff course modules for HTML AND CSS. 
+And also used MDN website for forexample flexbox: 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
 ## Help
 
