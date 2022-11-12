@@ -1,5 +1,5 @@
 # HTMLANDCSSCA
-##Project title: HTML and CSS CA: 
+Project title: HTML and CSS CA: 
 Rainy Days website. Hibo Aug22FT. 
 
 This is the Rainy Days Jackets website. 
