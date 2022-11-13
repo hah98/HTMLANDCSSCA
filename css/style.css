@@ -25,6 +25,7 @@ footer {
     text-decoration: none;
     height: 50px;
     margin-top: 20px;
+    
 
 }
 
@@ -50,16 +51,15 @@ main {
 }
 
 .logo {
-    height: 150px;
-    width: 250px;
+    height: 100px;
+    width: 200px;
     margin-bottom: 20px;
     
 }
 
-.logo-index{
-    margin-bottom: 20px;
 
-}
+
+
 
 nav li {
     display: inline-block;
@@ -85,6 +85,16 @@ nav li {
     text-decoration: none;
     margin-top: 10px;
 }
+
+.nav-grid {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 350px));
+    padding: 1em;
+    margin-left: 70px;
+}
+
+
 
 /* lIST OF JACKETS PAGE */
 
@@ -252,6 +262,8 @@ nav li {
     margin-left: 30px;
 
 }
+
+
 
     
 .buy-item{
