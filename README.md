@@ -58,7 +58,6 @@ https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
 
 Any advice for common problems or issues:
 
-The website works on all major browsers, but is best on Chrome.
 
 ## Authors
 
