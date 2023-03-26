@@ -1,124 +1,211 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="dexcription" content="Conatact us page ">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="dexcription" content="Conatact us page " />
     <title>Contact us | Rainydays</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/cccc11b77d.js" crossorigin="anonymous"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cccc11b77d.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Hotjar Tracking Code for my site -->
-<script>
-  (function(h,o,t,j,a,r){
-      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-      h._hjSettings={hjid:3410962,hjsv:6};
-      a=o.getElementsByTagName('head')[0];
-      r=o.createElement('script');r.async=1;
-      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-      a.appendChild(r);
-  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3410962, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
+  </head>
+  <body style="background-color: #7f959b">
+    <header>
+      <nav class="navbar">
+        <a href="index.html">
+          <img
+            class="logo"
+            class="logo"
+            src="./images/RainyDays_Logo.png"
+            alt="logo"
+        /></a>
+        <ul>
+          <li><a href="./List-of-jackets.html"> WOMENS</a></li>
+          <li><a href="./List-of-jackets.html"> MENS</a></li>
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i
+            ><a href="search.html"> search here </a>
+          </li>
+          <li><a href="contact.html"> Sign in</a></li>
+          <li><i class="fa-solid fa-user"></i></li>
+          <li><i class="fa-solid fa-heart"></i></li>
+          <li>
+            <i class="fa-solid fa-cart-shopping"
+              ><a href="checkout.html"> .</a></i
+            >
+          </li>
+        </ul>
+      </nav>
 
-</head>
-<body>
+      <!-- Mobile design -->
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
 
-<header>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="./index.html">Home</a></li>
+          <li>
+            <a class="menu__item" href="./List-of-jackets.html">Shop Women’s</a>
+          </li>
+          <li>
+            <a class="menu__item" href="List-of-jackets.html">Shop Men’s</a>
+          </li>
+          <li><a class="menu__item" href="./search.html">Our catalogue</a></li>
+          <li>
+            <a class="menu__item" href="./aboutRD.html">About RainyDays</a>
+          </li>
+          <li><a class="menu__item" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </div>
 
-  
-  <nav>
-    <ul class="nav-grid-phone">
-       <li><a href="List-of-jackets.html"> Woman</a></li>
-       <li><a href="List-of-jackets.html"> Men</a></li>
-       <li><i class="fa-solid fa-magnifying-glass"></i><a href="index.html"> search here </a></li>
-       <li><a href="contact.html"> Sign in</a></li>
-       <li><i class="fa-solid fa-user"></i></li>
-       <li><i class="fa-solid fa-heart"></i></li>
-       <li><i class="fa-solid fa-cart-shopping"></i></li>
-
-   </ul>
-   
-</nav>
-
-<div>
-  <a href="index.html"><img src="./images/RainyDays_Logo.png"  alt="rainydays logo image" class="logo-phone"></a>
-
-</div>
-
-
-
-  <nav>
-    <ul class="nav-grid">
-        <li><a href="List-of-jackets.html"> Woman</a></li>
-        <li><a href="List-of-jackets.html"> Men</a></li>
-        <li><i class="fa-solid fa-magnifying-glass"></i><a href="index.html"> search here </a></li>
-        
-        <li><a href="contact.html"> Sign in</a></li>
-        <li><i class="fa-solid fa-user"></i></li>
-        <li><i class="fa-solid fa-heart"></i></li>
-        <li><i class="fa-solid fa-cart-shopping"></i></li>
-
-    </ul>
-</nav>
-
-
-
-
-         <div>
+      <!-- <div>
            <a href="index.html" > 
            <img src="./images/RainyDays_Logo.png"  alt="rainydays logo image" class="logo-contact">
            </a>
-       
-</header>
+         </div> -->
+    </header>
+    <img class="logo-mobile" class="logo-mobile" src="./images/RainyDays_Logo.png" alt="logo-mobile"/></a>
+
     <main>
+      <h1 class="Hello-contact">Welcome to the Rainydays Contact page</h1>
+      <div class="contact-imgs">
+        <img src="./images/raindroppolaroid.jpg" class="raindrop" />
+        <img src="./images/wetleafspolaroid.jpg" class="raindrop" />
+      </div>
 
-    <img src="./images/amadej-tauses-xWOTojs1eg4-unsplash.jpg" class="raindrop">
+      <div class="container-con">
+        <form class="form">
+          <h3>Contact Us</h3>
+          <div>
+            <label>
+              <input type="text" id="names" placeholder="Your Name" required />
+            </label>
+            <div class="form-error" id="namesError">Name is required</div>
+          </div>
 
-        <section class="form-design">
-        <form action="" method="get" class="signup">
-            <div class="signup">
-              <label for="name"> Name: </label>
-              <input type="text" name="name" id="name" required>
-            </div>
-            <div class="signup">
-              <label for="email">Email: </label>
-              <input type="email" name="email" id="email" required>
-            </div>
-            <div class="signup">
-                <label for="question">Question: </label>
-                <input type="question" name="question" id="question" required>
+          <div>
+            <label>
+              <textarea id="subject" placeholder="Question"></textarea>
+              <div class="form-error" id="subjectError">
+                Must have a value with a minimum length of 10
               </div>
-            <div class="signup">
-                <div class="sendinbutton">
-              <input type="submit" value="SEND IN" id="sendinbutton">
-                </div>
+            </label>
+          </div>
+
+          <div>
+            <label>
+              <input
+                type="email"
+                id="email"
+                placeholder="Email Adress"
+                required
+              />
+            </label>
+            <div class="form-error" id="emailError">
+              Must be formatted like an Email
             </div>
-          </form>
-          
-        </section>
+          </div>
 
+          <div>
+            <label>
+              <textarea id="adress" placeholder="Home Adress"></textarea>
+            </label>
+            <div class="form-error" id="adressError">
+              Must have a value with a minimum length of 25
+            </div>
+          </div>
 
+          <button type="submit" id="submit">Send</button>
+        </form>
+      </div>
 
+      
 
+      <section class="index-info-contact">
+        <div class="content-contact">
+          <div>
+            <p>
+              "Jacket for all types of wather not only RAINY DAYS. Made for
+              nature and city hikes, both equally <span>important.</span>"
+            </p>
+            <img
+              src="./images/preeti-narula-ZBgKbMbRgjY-unsplash.jpg"
+              alt="wet leaves after rain"
+              class="photo-wall-img"
+            />
+          </div>
 
+          <div>
+            <p>
+              "Outdoor activity jackets designed to enrich people's lives,
+              Whether you are a hiker or a city walker,
+              <span> your journey with us.</span>"
+            </p>
+            <img
+              src="./images/mathias-jensen-5x4U6InVXpc-unsplash.jpg"
+              class="photo-wall-img"
+              alt="people with backpacks climbing a steep mountain"
+            />
+          </div>
 
+          <div>
+            <p>
+              "Outdoor activity jackets designed to enrich people's lives,
+              Whether you are a hiker or a city walker,
+              <span> your journey with us.</span>"
+            </p>
+            <img
+              src="./images/chad-madden-cPa-7yByq3o-unsplash.jpg"
+              class="photo-wall-img"
+              alt="road with colorful autumn trees on each side"
+            />
+          </div>
+        </div>
+      </section>
 
+      <script src="./JS/contact.js"></script>
     </main>
 
-
-
     <footer>
-        <div style="text-align: center;" class="contact-symbols">
-      
-            <a href="contact.html">Contact</a>
-            <a href="aboutRD.html">About us</a>
-        
+      <div style="text-align: center" class="contact-symbols">
+        <a href="contact.html">Contact</a>
+        <a href="aboutRD.html">About us</a>
+
         <i class="fa-solid fa-envelope"></i>
         <i class="fa-brands fa-square-instagram"></i>
         <i class="fa-brands fa-square-facebook"></i>
-        </div>
+      </div>
+
+      <section class="rainyinfo">
+        <p>Email: contact@rainydays.com</p>
+        <p>Phone: + 47 12 345 678</p>
+      </section>
     </footer>
-</body>
+  </body>
 </html>

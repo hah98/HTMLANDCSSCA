@@ -1,0 +1,372 @@
+/* Search page*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header*/
+.navbar {
+  height: 80px;
+  width: auto;
+  margin-top: 10px;
+}
+.logo-mobile {
+  display: none;
+}
+.hamburger-menu {
+  display: none;
+}
+.logo {
+  width: 170px;
+  height: 100px;
+  margin-top: -40px;
+  margin-right: 150px;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+nav ul li a {
+  color: #0a3641;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #2b8fa8;
+  transition: 0.3s;
+}
+
+/* Main search page*/
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(240, 239, 243);
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.searchwelcome {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 375px;
+  height: 520px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+  padding: 20px;
+  overflow-y: scroll;
+  margin-left: 500px;
+  margin-bottom: 30px;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.container form {
+  max-width: 100%;
+  border: 1px solid rgb(82, 74, 235);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.container form input {
+  border: none;
+  outline: none;
+  box-shadow: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 10px;
+}
+
+.container form i {
+  padding-left: 10px;
+}
+
+.product-list {
+  padding: 20px 0;
+}
+.product {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  padding-bottom: 15px;
+}
+
+.product img {
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.product .p-details {
+  padding-left: 15px;
+}
+
+.product .p-details h2 {
+  font-size: 20px;
+  color: #1d1d1d;
+}
+
+.product .p-details h3 {
+  font-size: 16px;
+}
+
+/* footer*/
+.footerinfo {
+  font-size: 1em;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  flex-direction: left;
+}
+
+.rainyinfo {
+  margin-left: 1000px;
+  margin-top: -30;
+}
+
+.rainy-info p {
+  margin-top: -30px;
+}
+
+footer {
+  background-color: #0a3641;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 100px;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+footer i {
+  margin-left: 40px;
+}
+
+/* Media Queries*/
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  *,
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  /* Hamburger menu*/
+  .navbar {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+  #menu__toggle {
+    opacity: 0;
+  }
+  #menu__toggle:checked + .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0deg);
+  }
+  #menu__toggle:checked + .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    left: 0 !important;
+  }
+  .menu__btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #616161;
+    transition-duration: 0.25s;
+  }
+  .menu__btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .menu__box {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 300px;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: #0a3641;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    transition-duration: 0.25s;
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.25s;
+  }
+  .menu__item:hover {
+    background-color: #cfd8dc;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .logo-mobile {
+    display: block;
+    width: 130px;
+    height: 100px;
+    margin-left: 100px;
+  }
+
+  /* Search form mobile version*/
+
+  .body {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(240, 239, 243);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .searchwelcome {
+    display: flex;
+    justify-content: center;
+  }
+
+  .container {
+    width: 275px;
+    height: 420px;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+    padding: 20px;
+    overflow-y: scroll;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 110px;
+  }
+
+  .container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .container form {
+    max-width: 100%;
+    border: 1px solid rgb(82, 74, 235);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .container form input {
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 10px;
+  }
+
+  .container form i {
+    padding-left: 10px;
+  }
+
+  .product-list {
+    padding: 20px 0;
+  }
+  .product {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding-bottom: 15px;
+  }
+
+  .product img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
+  .product .p-details {
+    padding-left: 15px;
+  }
+
+  .product .p-details h2 {
+    font-size: 20px;
+    color: #1d1d1d;
+  }
+
+  .product .p-details h3 {
+    font-size: 16px;
+  }
+
+  .rainyinfo {
+    display: none;
+  }
+
+  footer {
+    height: 50px;
+  }
+  footer a {
+    text-decoration: none;
+    font-size: 12px;
+  }
+}

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="checkout shopping page ">
-    <title>Checkout success | Rainydays</title>
+    <title>Checkout | Rainydays</title>
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap" rel="stylesheet">
@@ -22,65 +22,82 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 </head>
-<body>
+<body style="background-color: #7F959B;">
    
 <header>
-    <nav>
-        <ul class="nav-grid-phone">
-           <li><a href="List-of-jackets.html"> Woman</a></li>
-           <li><a href="List-of-jackets.html"> Men</a></li>
-           <li><i class="fa-solid fa-magnifying-glass"></i><a href="index.html"> search here </a></li>
-           <li><a href="contact.html"> Sign in</a></li>
-           <li><i class="fa-solid fa-user"></i></li>
-           <li><i class="fa-solid fa-heart"></i></li>
-           <li><i class="fa-solid fa-cart-shopping"></i></li>
 
-       </ul>
-       
-   </nav>
-  
-   <div>
-    <a href="index.html"><img src="./images/RainyDays_Logo.png"  alt="rainydays logo image" class="logo-phone"></a>
+    <nav class="navbar">
+        <a href="index.html">
+          <img class="logo" class="logo" src="./images/RainyDays_Logo.png" alt="logo"/></a>
+        <ul>
+          <li><a href="./List-of-jackets.html"> WOMENS</a></li>
+          <li><a href="./List-of-jackets.html"> MENS</a></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i><a href="search.html"> search here </a></li>
+         <li><a href="contact.html"> Sign in</a></li>
+         <li><i class="fa-solid fa-user"></i></li>
+         <li><i class="fa-solid fa-heart"></i></li>
+         <li><i class="fa-solid fa-cart-shopping"><a href="checkout.html"> .</a></i></li>
 
-</div>
-   
-    <nav>
-        <ul class="nav-grid">
-            <li><a href="List-of-jackets.html"> Woman</a></li>
-            <li><a href="List-of-jackets.html"> Men</a></li>
-            <li><i class="fa-solid fa-magnifying-glass"></i><a href="index.html"> search here </a></li>
-            <li><a href="index.html"><img src="./images/RainyDays_Logo.png"  alt="rainydays logo image" class="logo"></a></li>
-            <li><a href="contact.html"> Sign in</a></li>
-            <li><i class="fa-solid fa-user"></i></li>
-            <li><i class="fa-solid fa-heart"></i></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
-
+          
         </ul>
-    </nav>
+      </nav>
+
+ <!-- Mobile design -->
+ <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+      <span></span>
+    </label>
+
+    <ul class="menu__box">
+      <li><a class="menu__item" href="./index.html">Home</a></li>
+      <li><a class="menu__item" href="./List-of-jackets.html">Shop Women’s</a></li>
+      <li><a class="menu__item" href="List-of-jackets.html">Shop Men’s</a></li>
+      <li><a class="menu__item" href="./search.html">Our catalogue</a></li>
+      <li><a class="menu__item" href="./aboutRD.html">About RainyDays</a></li>
+      <li><a class="menu__item" href="./contact.html">Contact Us</a></li>
+    </ul>
+  </div>
+
 
 </header>
+<img class="logo-mobile" class="logo-mobile" src="./images/RainyDays_Logo.png" alt="logo-mobile"/></a>
 <main>
 
 
- 
+<section class="wholegridcheck">
 <div class="shopping-info-grid">
+
 
    <div class="shopping-info-image">
         <a href="jacket-info.html">
         <img src="./images/RainyDays_Jacket1.png" alt=" Rainydays jacket: Rock orange" class="rd-jackets"></a>
     </div>
 
+    <section class="jcinfo">
         <div class="jacket-checkout-info">
-        <p> Rock Orange;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; Jacket </p>
+        <p> Jacket:  &nbsp;&nbsp; &nbsp;&nbsp;  Rock Orange </p>
         
-        <p> 1500 NOK</p>
+        <p> PRICE: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;1500 NOK</p>
     
-        <p> Size; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; xs </p>
+        <p> Size: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;xs </p>
         
-        <p> Quantity; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 1 <i class="fa-solid fa-angle-down"></i></i> </p>
+        <p> Quantity: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 1 <i class="fa-solid fa-angle-down"></i></i> </p>
        
         </div>
+    </section>
 
+    
+
+    <div class="shopping-info-mobile">
+        <h3> shoppig bag total</h3>
+        <p> Subtotal: 1500 NOK </p>
+        <p> Shipping: FREE </p>
+   
+        <p> Discount code: <i class="fa-solid fa-angle-down"></i>  </p>
+        <hr>
+         <p> Total price: 1500 NOK</p>
+    </div>
 
 
    <div class="shopping-info">
@@ -94,10 +111,11 @@
  </div>
 </div>
 
-   
+</section>  
 
 
-<div style="text-align: center;">
+
+<div class="buy-itemwhole">
 <a href="./checkout-success.html" class="buy-item"> buy item</a>
 </div>
 
@@ -138,7 +156,37 @@
     <img src="./images/RainyDays_Jacket7.png" alt="Rainydays jacket: Patagonia brown" class="rd-jackets"></a>
     </section>
     
-        
+    <section class="rd-jackets-grid-phone">
+
+        <a href="jacket-info.html">
+            <p>Rock Orange <b> 1500 NOK</b></p>
+            <img src="./images/RainyDays_Jacket1.png" alt=" Rainydays jacket: Rock orange" class="rd-jackets-phone"></a>
+            
+            <a href="jacket-info.html">
+            <p> Dark Gray Scott <b> 750 NOK</b></p> 
+            <img src="./images/RainyDays_Jacket2.png" alt=" Rainydays jacket: Dark gray scott" class="rd-jackets-phone"></a>
+            
+            <a href="jacket-info.html">
+            <p> Red windebreaker <b> 800 NOK</b></p> 
+            <img src="./images/RainyDays_Jacket3.png" alt="Rainydays jacket: Red windebreaker" class="rd-jackets-phone"></a>
+            
+            <a href="jacket-info.html">
+            <p> Black and white scott <b> 1200 NOK</b></p> 
+            <img src="./images/RainyDays_Jacket4.png" alt="Rainydays jacket: Black and white scott" class="rd-jackets-phone"></a>
+            
+            <a href="jacket-info.html">
+            <p> Gray 80s style <b> 600 NOK</b></p> 
+            <img src="./images/RainyDays_Jacket5.png" alt="Rainydays jacket: Gray 80s style" class="rd-jackets-phone"></a>
+            
+            <a href="jacket-info.html">
+            <p> Scotts winter black <b> 1500 NOK</b></p> 
+            <img src="./images/RainyDays_Jacket6.png" alt="Rainydays jacket: Scotts winter black" class="rd-jackets-phone">
+            
+            <a href="jacket-info.html">
+            <p> Patagonia Brown<b> 1000 NOK</b></p> 
+            <img src="./images/RainyDays_Jacket7.png" alt="Rainydays jacket: Patagonia brown" class="rd-jackets-phone"></a>
+            
+            </section>  
 
 </main>
 
@@ -154,6 +202,12 @@
         <i class="fa-brands fa-square-instagram"></i>
         <i class="fa-brands fa-square-facebook"></i>
 
+
+
+        <section class="rainyinfo">
+            <p>Email: contact@rainydays.com</p>
+            <p>Phone: + 47 12 345 678 </p>
+            </section>
     </footer>
 </body>
 </html>

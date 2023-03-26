@@ -22,56 +22,69 @@
     })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
 </script>
 </head>
-<body>
+<body style="background-color: #7F959B;">
 <header>
-   
-    
-    <nav>
 
-        <nav>
-            <ul class="nav-grid-phone">
-               <li><a href="List-of-jackets.html"> Woman</a></li>
-               <li><a href="List-of-jackets.html"> Men</a></li>
-               <li><i class="fa-solid fa-magnifying-glass"></i><a href="index.html"> search here </a></li>
-               <li><a href="contact.html"> Sign in</a></li>
-               <li><i class="fa-solid fa-user"></i></li>
-               <li><i class="fa-solid fa-heart"></i></li>
-               <li><i class="fa-solid fa-cart-shopping"></i></li>
-   
-           </ul>
-           
-       </nav>
-      
+    <nav class="navbar">
+        <a href="index.html">
+          <img class="logo" class="logo" src="./images/RainyDays_Logo.png" alt="logo"/></a>
+        <ul>
+          <li><a href="./List-of-jackets.html"> WOMENS</a></li>
+          <li><a href="./List-of-jackets.html"> MENS</a></li>
+          <li><i class="fa-solid fa-magnifying-glass"></i><a href="search.html"> search here </a></li>
+         <li><a href="contact.html"> Sign in</a></li>
+         <li><i class="fa-solid fa-user"></i></li>
+         <li><i class="fa-solid fa-heart"></i></li>
+         <li><i class="fa-solid fa-cart-shopping"></i></li>
 
-       <div>
-        <a href="index.html"><img src="./images/RainyDays_Logo.png"  alt="rainydays logo image" class="logo-phone"></a>
-
-    </div>
-
-
-        <ul class="nav-grid">
-            <li><a href="List-of-jackets.html"> Woman</a></li>
-            <li><a href="List-of-jackets.html"> Men</a></li>
-            <li><i class="fa-solid fa-magnifying-glass"></i><a href="index.html"> search here </a></li>
-            <li><a href="index.html"><img src="./images/RainyDays_Logo.png"  alt="rainydays logo image" class="logo"></a></li>
-            <li><a href="contact.html"> Sign in</a></li>
-            <li><i class="fa-solid fa-user"></i></li>
-            <li><i class="fa-solid fa-heart"></i></li>
-            <li><i class="fa-solid fa-cart-shopping"></i></li>
-
+          
         </ul>
-    </nav>
+      </nav>
+
+   
+      <!-- Mobile design -->
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+    
+        <ul class="menu__box">
+          <li><a class="menu__item" href="./index.html">Home</a></li>
+          <li><a class="menu__item" href="./List-of-jackets.html">Shop Women’s</a></li>
+          <li><a class="menu__item" href="List-of-jackets.html">Shop Men’s</a></li>
+          <li><a class="menu__item" href="./search.html">Our catalogue</a></li>
+          <li><a class="menu__item" href="./aboutRD.html">About RainyDays</a></li>
+          <li><a class="menu__item" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </div>
 
 
-         <div style="text-align: center;">
-    <h1> <b>Success, Thank you! </b></h1>
+         
+</header>
+<img class="logo-mobile" class="logo-mobile" src="./images/RainyDays_Logo.png" alt="logo-mobile"/></a>
+<main>
+
+    <div style="text-align: center;">
+        <h1> <b>Success, Thank you! </b></h1>
 
     <h2> Order details </h2>
          </div>
-</header>
-<main>
 
-    
+        <!--  <div class="shopping-info-mobile">
+            <h3> shoppig bag total</h3>
+            <p> Subtotal: 1500 NOK </p>
+            <p> Shipping: FREE </p>
+       
+            <p> Discount code: <i class="fa-solid fa-angle-down"></i>  </p>
+            <hr>
+             <p> Total price: 1500 NOK</p>
+        </div> -->
+
+
+
+
+    <!-- 
         <div class="jacket-checkout-info">
             <p> Rock Orange;  &nbsp;&nbsp; &nbsp;&nbsp;  Jacket </p>
             
@@ -81,8 +94,23 @@
             
             <p> Quantity; &nbsp;&nbsp; &nbsp;&nbsp;  1 <i class="fa-solid fa-angle-down"></i></i> </p>
            
-        </div>
+        </div> -->
 
+        <section class="jcinfo" style="margin-left: 200px;">
+            <div class="jacket-checkout-info" style="align-items: center; ">
+            <p> Jacket:  &nbsp;&nbsp; &nbsp;&nbsp;  Rock Orange </p>
+            
+            <p> PRICE: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp;1500 NOK</p>
+        
+            <p> Size: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;   &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;xs </p>
+            
+            <p> Quantity: &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; 1 <i class="fa-solid fa-angle-down"></i></i> </p>
+           
+            </div>
+        </section>
+
+
+        
     
         <section class="rd-placement">
         <a href="jacket-info.html">
@@ -107,6 +135,11 @@
         <i class="fa-solid fa-envelope"></i>
         <i class="fa-brands fa-square-instagram"></i>
         <i class="fa-brands fa-square-facebook"></i>
+
+        <section class="rainyinfo">
+            <p>Email: contact@rainydays.com</p>
+            <p>Phone: + 47 12 345 678 </p>
+            </section>
 
     </footer>
 </body>

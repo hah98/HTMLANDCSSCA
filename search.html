@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Rainydays jacket search" />
+    <title>Rainydays | Search</title>
+    <script
+      src="https://kit.fontawesome.com/cccc11b77d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link href="./css/search.css" rel="stylesheet" />
+    <link href="./css/search.css" rel="stylesheet" />
+  </head>
+  <body style="background-color: #7f959b">
+    <header>
+      <nav class="navbar">
+        <a href="index.html">
+          <img
+            class="logo"
+            class="logo"
+            src="./images/RainyDays_Logo.png"
+            alt="logo"
+        /></a>
+        <ul>
+          <li><a href="./List-of-jackets.html"> WOMENS</a></li>
+          <li><a href="./List-of-jackets.html"> MENS</a></li>
+          <li>
+            <i class="fa-solid fa-magnifying-glass"></i
+            ><a href="index.html"> search here </a>
+          </li>
+          <li><a href="contact.html"> Sign in</a></li>
+          <li><i class="fa-solid fa-user"></i></li>
+          <li><i class="fa-solid fa-heart"></i></li>
+          <li>
+            <i class="fa-solid fa-cart-shopping"
+              ><a href="checkout.html"> .</a></i
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Mobile design -->
+      <div class="hamburger-menu">
+        <input id="menu__toggle" type="checkbox" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+
+        <ul class="menu__box">
+          <li><a class="menu__item" href="./index.html">Home</a></li>
+          <li>
+            <a class="menu__item" href="./List-of-jackets.html">Shop Women’s</a>
+          </li>
+          <li>
+            <a class="menu__item" href="List-of-jackets.html">Shop Men’s</a>
+          </li>
+          <li><a class="menu__item" href="./search.html">Our catalogue</a></li>
+          <li>
+            <a class="menu__item" href="./aboutRD.html">About RainyDays</a>
+          </li>
+          <li><a class="menu__item" href="./contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+    </header>
+    <img class="logo-mobile" class="logo-mobile" src="./images/RainyDays_Logo.png" alt="logo-mobile"/></a>
+    <main>
+      <h1 class="searchwelcome">Welcome, Browse Through Our Catalog!</h1>
+      <section class="container">
+        <form>
+          <i class="fas fa-search"></i>
+          <input
+            type="text"
+            name=""
+            id="search-item"
+            placeholder="Search Jackets"
+            onkeyup="search()"
+          />
+        </form>
+
+        <div class="product-list" id="product-list">
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket1.png"
+              alt=" Rainydays jacket: Rock orange"
+            />
+            <div class="p-details">
+              <h2>Rock Orange</h2>
+              <h3>1500 NOK</h3>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket2.png"
+              alt=" Rainydays jacket: dark gray scott"
+            />
+            <div class="p-details">
+              <h2>Dark Gray Scott</h2>
+              <h3>750 NOK</h3>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket3.png"
+              alt=" Rainydays jacket: Red windebreaker"
+            />
+            <div class="p-details">
+              <h2>Red windebreaker</h2>
+              <h3>800 NOK</h3>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket4.png"
+              alt=" Rainydays jacket: Black and white scott"
+            />
+            <div class="p-details">
+              <h2>Black and White Scott</h2>
+              <h3>1200 NOK</h3>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket5.png"
+              alt=" Rainydays jacket: Gray 80s style"
+            />
+            <div class="p-details">
+              <h2>Gray 80s style</h2>
+              <h3>600 NOK</h3>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket6.png"
+              alt=" Rainydays jacket: Scott winter Black"
+            />
+            <div class="p-details">
+              <h2>Scott winter black</h2>
+              <h3>1500 NOK</h3>
+            </div>
+          </div>
+
+          <div class="product">
+            <img
+              src="./images/RainyDays_Jacket7.png"
+              alt=" Rainydays jacket: Patagonia Brown"
+            />
+            <div class="p-details">
+              <h2>Patagonia Brown</h2>
+              <h3>1000 NOK</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script src="./JS/search.js"></script>
+    </main>
+
+    <footer>
+      <div class="footerinfo">
+        <a href="contact.html">Contact</a>
+        <a href="aboutRD.html">About us</a>
+
+        <i class="fa-solid fa-envelope"></i>
+        <i class="fa-brands fa-square-instagram"></i>
+        <i class="fa-brands fa-square-facebook"></i>
+      </div>
+      <section class="rainyinfo">
+        <p>Email: contact@rainydays.com</p>
+        <p>Phone: + 47 12 345 678</p>
+      </section>
+    </footer>
+  </body>
+</html>
