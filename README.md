@@ -1,6 +1,6 @@
 # CROSS-COURSE PROJECT (HTMLANDCSS)
 
-![image](./Skjermbilde 2023-05-31 kl. 14.50.56.png)
+![image](./images/Skjermbilde%2023-05-31%kl.%14.50.56.png)
 
 This is a website created for the imaginary clothing brand Rainydays, where users can shop their jackets, 
 read about the company and contact them. 
