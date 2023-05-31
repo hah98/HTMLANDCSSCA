@@ -1,35 +1,35 @@
 # CROSS-COURSE PROJECT (HTMLANDCSS)
 
-![image](./images/Skjermbilde%2023-05-31%kl.%14.50.56.png)
+![image](./images/Skjermbilde%202023-05-31%20kl.%2014.50.56.png)
 
-This is a website created for the imaginary clothing brand Rainydays, where users can shop their jackets, 
-read about the company and contact them. 
+This is a website created for the imaginary clothing brand Rainydays, where users can shop their jackets,
+read about the company and contact them.
 
 ## Description
 
-This is a website created for the imaginary clothing brand Rainydays, where users can shop their jackets, 
+This is a website created for the imaginary clothing brand Rainydays, where users can shop their jackets,
 read about the company and contact them.
 
-The website contains these pages: 
+The website contains these pages:
 
--  Main page (index.html)
--  List-of-jackets.html
--  Jacket-infor.html
--  checkout.html
--  checkout-success.html
--  search.html
--  search.js
--  Contact.html
--  Contact.js 
--  CSS
+- Main page (index.html)
+- List-of-jackets.html
+- Jacket-infor.html
+- checkout.html
+- checkout-success.html
+- search.html
+- search.js
+- Contact.html
+- Contact.js
+- CSS
 
 ## Built With
 
-This project is coded using: 
+This project is coded using:
 
 - HTML
--  CSS
--  Vanilla JavaScript
+- CSS
+- Vanilla JavaScript
 
 ## Getting Started
 
@@ -47,9 +47,9 @@ git clone git@github.com:hah98/HTMLANDCSSCA
 
 ### Running
 
-Click the link below to run the site: 
+Click the link below to run the site:
 
- https://startling-stroopwafel-470cda.netlify.app
+https://startling-stroopwafel-470cda.netlify.app
 
 ## Contributing
 
@@ -60,4 +60,3 @@ This is a project I have worked on myself. I have plans on going back to this pr
 Contact me here:
 
 Dicord username: hah98
-
